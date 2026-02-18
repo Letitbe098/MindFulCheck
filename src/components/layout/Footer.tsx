@@ -106,6 +106,13 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-gray-200 mt-8 pt-8 text-center text-gray-500 text-sm">
           <p>&copy; {new Date().getFullYear()} MindfulCheck. All rights reserved.</p>
+          <p>
+            Designed & Developed by{" "}
+            <span className="font-semibold text-primary-600">
+              Banoth Poojitha
+            </span>
+          </p>
+
         </div>
       </div>
     </footer>
